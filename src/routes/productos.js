@@ -10,7 +10,8 @@ const inde = require('../index')
 router.get('/productos', async (req, res) => {
     let productos = await inde.contenedor.getAll() 
     console.log(productos)
-    res.render('productosAll.html', {productos})
+    // res.render('index.html', {productos})
+    res.send(productos)
 })
 
 router.get('/productos/:id', async (req, res) => {

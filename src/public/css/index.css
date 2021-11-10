@@ -6,17 +6,20 @@
 
 body {
     background-color: #18a383;
-    display: flex;
+    width: 100vw;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; */
 
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-form {
+.form-product {
+    margin: 20px auto;
+
     width: 320px;
     color: #999;
     display: flex;
@@ -40,6 +43,10 @@ form label {
 .input_btn {
     cursor: pointer;
     padding: 5px 10px;
+}
+
+p {
+    text-align: center;
 }
 
 a {
